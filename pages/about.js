@@ -3,7 +3,6 @@ import '@fontsource/roboto';
 import Container from '@material-ui/core/Container'
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Typography } from '@material-ui/core';
