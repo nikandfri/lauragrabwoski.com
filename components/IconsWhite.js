@@ -1,4 +1,4 @@
-import Box from '@material-ui/core/box'
+import Box from '@material-ui/core/Box'
 import Link from '@material-ui/core/Link'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
