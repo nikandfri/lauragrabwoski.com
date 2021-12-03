@@ -70,8 +70,8 @@ export default function Home(props) {
                 <Typography variant="body1" gutterBottom>Hi, I’m</Typography>
                 <div className={classes.heading}>Laura Grabowski</div>
                 <Typography fontStyle="italic" variant="body1" gutterBottom style={{color:"#4a5568"}}>
-                I am a founder, innovation manager, creator and a true dog lover. Currently employed at Wepa Digital exploring new sustainable
-                business models plus realizing new digital opportunities.  
+                I am a founder, innovation manager, creator and a true dog lover. Always exploring new sustainable
+                business models and realizing new digital opportunities.  
                 </Typography>
               </Box>
               <Box style={matches ? { display: "flex", flexDirection: "row-reverse", flexWrap: "wrap" } : { display: "flex", flexDirection: "column", flexWrap: "wrap"}}>
