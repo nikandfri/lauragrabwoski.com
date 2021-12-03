@@ -70,7 +70,7 @@ export default function Home(props) {
                 <Typography variant="body1" gutterBottom>Hi, I’m</Typography>
                 <div className={classes.heading}>Laura Grabowski</div>
                 <Typography fontStyle="italic" variant="body1" gutterBottom style={{color:"#4a5568"}}>
-                I am a founder, innovation manager, creator and a truly dog lover. Currently employed at Wepa Digital exploring new sustainable
+                I am a founder, innovation manager, creator and a true dog lover. Currently employed at Wepa Digital exploring new sustainable
                 business models plus realizing new digital opportunities.  
                 </Typography>
               </Box>
