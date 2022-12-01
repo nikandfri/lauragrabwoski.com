@@ -17,7 +17,7 @@ import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import { palette } from '@material-ui/system';
 import Card from '@material-ui/core/Card'
 import CardMedia from '@material-ui/core/CardMedia';
-import pic from '../public/picture.png'
+import pic from '../public/picture.jpg'
 import Image from 'next/image'
 import Footer from '../components/FooterWhite'
 import Header from '../components/Header'

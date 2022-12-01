@@ -19,12 +19,12 @@ export default function MyApp(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>Laura Grabowski</title>
+        <title>Niklas Jahn</title>
         <meta
   name="viewport"
   content="minimum-scale=1, initial-scale=1, width=device-width"
 />
-        <meta property="og:title" content="Laura Grabwoski" key="title" />
+        <meta property="og:title" content="Niklas Jahn" key="title" />
         <meta name="description" content="Experienced innovation manager with a passion for tech." />
       </Head>
       <ThemeProvider theme={theme}>

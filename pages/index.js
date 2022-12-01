@@ -41,7 +41,7 @@ const useStyles = makeStyles({
   heading: {
     fontSize: '3rem',
     fontWeight: '800',
-    background: "-webkit-linear-gradient(45deg, #FB5607 0%, #FF006E 15%)",
+    background: "-webkit-linear-gradient(45deg, #649173 0%, #DBD5A4 15%)",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent"
   },
@@ -68,7 +68,7 @@ export default function Home(props) {
             <Box id="body" >
               <Box>
                 <Typography variant="body1" gutterBottom>Hi, I’m</Typography>
-                <div className={classes.heading}>Laura Grabowski</div>
+                <div className={classes.heading}>Niklas Jahn</div>
                 <Typography fontStyle="italic" variant="body1" gutterBottom style={{color:"#4a5568"}}>
                 I am a founder, innovation manager, creator and a true dog lover. Always exploring new sustainable
                 business models and realizing new digital opportunities.  
@@ -81,7 +81,7 @@ export default function Home(props) {
                   </Link>
                 </Box>
                 <Box style={matches ? {padding:"16px", margin:"4px"} : {paddingTop:"12px", margin:"0px"}}>
-                  <Link href="https://www.linkedin.com/in/lauragrabowski25/">
+                  <Link href="https://www.linkedin.com/in/niklas-jahn/">
                     <a className={classes.bold}>LinkedIn</a>
                   </Link>
                 </Box>

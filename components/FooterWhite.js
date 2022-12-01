@@ -17,7 +17,7 @@ export default function Footer(){
     const classes = useStyles()
     return(
         <footer> 
-            <Box style={{background: "linear-gradient(to right, #FF006E, #FB5607)"}} color="white" minHeight="150px" >
+            <Box style={{background: "linear-gradient(to right, #649173, #DBD5A4)"}} color="white" minHeight="150px" >
                 <Container maxWidth="lg">
                     <Grid container spacing={5}>
                         <Grid item xs={12} sm={8}>

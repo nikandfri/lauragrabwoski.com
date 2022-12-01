@@ -33,7 +33,7 @@ const useStyles = makeStyles({
     heading: {
         fontSize: '1.25rem',
         fontWeight: '800',
-        background: "-webkit-linear-gradient(45deg, #FB5607 0%, #FF006E 15%)",
+        background: "-webkit-linear-gradient(45deg, #649173 0%, #649173 15%)",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent"
     },
@@ -47,9 +47,9 @@ export default function Header() {
             <AppBar elevation={0} style={{ position: "fixed", backgroundColor: "white", color: "black" }}>
                 <Toolbar>
                     <Box sx={{width: "100%", display:"flex", flexDirection:"row", flexWrap:"wrap", justifyContent:"flex-start"}}>
-                        {matches ? <Box m={2} flexGrow={10} sx={{fontWeight: "800", fontSize:"1.5rem"}} ><span className={classes.heading}>Laura Grabowski </span></Box> : <Box m={0} sx={{width:"100%", fontWeight:"800", fontSize: "1.5rem", paddingTop: "16px"}} ><span className={classes.heading}>Laura Grabowski</span></Box>}
+                        {matches ? <Box m={2} flexGrow={10} sx={{fontWeight: "800", fontSize:"1.5rem"}} ><Link href="/"><a style={{textDecoration:"none"}}><span className={classes.heading}>Niklas Jahn </span></a></Link></Box> : <Box m={0} sx={{width:"100%", fontWeight:"800", fontSize: "1.5rem", paddingTop: "16px"}} ><span className={classes.heading}>Niklas Jahn</span></Box>}
                         {matches ? <Box m={2} sx={{fontWeight: "800"}}><Link href="https://medium.com/@jahn230"><a className={classes.bold}>Blog</a></Link></Box> :  <Box m={0}><Link href="https://medium.com/@jahn230"><a className={classes.boldtwo}>Blog</a></Link></Box> }
-                        {matches ? <Box m={2} sx={{fontWeight:"800"}}><Link href="https://www.linkedin.com/in/lauragrabowski25/"><a style={{color: "black"}} className={classes.bold}>LinkedIn</a></Link></Box>: <Box m={0} ><Link href="https://www.linkedin.com/in/lauragrabowski25/"><a className={classes.boldtwo} >LinkedIn</a></Link></Box>}
+                        {matches ? <Box m={2} sx={{fontWeight:"800"}}><Link href="https://www.linkedin.com/in/niklas-jahn/"><a style={{color: "black"}} className={classes.bold}>LinkedIn</a></Link></Box>: <Box m={0} ><Link href="https://www.linkedin.com/in/niklas-jahn/"><a className={classes.boldtwo} >LinkedIn</a></Link></Box>}
                         {matches ? <Box m={2} sx={{fontWeight: "800"}}><Link href="/"><a className={classes.bold}>Start</a></Link></Box> : <Box m={0} className={classes.boldtwo}><Link href="/"><a className={classes.boldtwo}>Start</a></Link></Box> }
                     </Box>
                 </Toolbar>
