@@ -41,6 +41,12 @@ const useStyles = makeStyles({
     fontSize: '1.5rem',
     textDecoration: 'none',
     color: 'white',
+  },
+  bold3: {
+    fontWeight: '800',
+    fontSize: '1.5rem',
+    textDecoration: 'none',
+    color: '#4a5568',
   }
 })
 
@@ -59,10 +65,13 @@ export default function About(props){
             </Box>
             <Box clone order={{xs:2, sm:1}}>
               <Grid item xs={12} sm={6} order={{xs:2, sm: 1}}>
-                <div style={{color:"#4a5568"}}> 
+                <div class={classes.bold3}>
+                  About Me 🔥 
+                </div>
+                <Typography variant="body1" style={{color:"#4a5568", lineHeight: 2.0}}>
                 I'm a developer, digital marketer, and Corporate Innovation Specialist living in Essen. I am good at incubating PowerPoints to products. I am passionate about sustainability and new business model that dare to solve problems.Recently I joined DNB Bank Asa in 2022 as one of their Innovation Specialists, and helped to pilot a Buy Now Pay Later Product and was part of prototyping a Krypto Custody solution.
                 Before that, I worked at schmiede.one for a few years in Robotics and Web-Development after graduating from Bergische Universities Wuppertal with a specialisation in Entrepreneurship and Innovation.
-                </div>
+                </Typography>
               </Grid>
             </Box>
           </Grid>
