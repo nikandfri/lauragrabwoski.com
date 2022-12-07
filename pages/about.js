@@ -60,7 +60,8 @@ export default function About(props){
             <Box clone order={{xs:2, sm:1}}>
               <Grid item xs={12} sm={6} order={{xs:2, sm: 1}}>
                 <div style={{color:"#4a5568"}}> 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                I'm a developer, digital marketer, and Corporate Innovation Specialist living in Essen. I am good at incubating PowerPoints to products. I am passionate about sustainability and new business model that dare to solve problems.Recently I joined DNB Bank Asa in 2022 as one of their Innovation Specialists, and helped to pilot a Buy Now Pay Later Product and was part of prototyping a Krypto Custody solution.
+                Before that, I worked at schmiede.one for a few years in Robotics and Web-Development after graduating from Bergische Universities Wuppertal with a specialisation in Entrepreneurship and Innovation.
                 </div>
               </Grid>
             </Box>
