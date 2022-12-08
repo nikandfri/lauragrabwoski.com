@@ -22,7 +22,7 @@ export default function Footer(){
                     <Grid container spacing={5}>
                         <Grid item xs={12} sm={8}>
                             <Box className={classes.bold}>
-                                New ideas just a click away!
+                                Lets talk!
                             </Box>
                             <Icons></Icons>
                         </Grid>

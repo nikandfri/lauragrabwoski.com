@@ -22,7 +22,7 @@ export default function Footer(){
                     <Grid container spacing={5}>
                         <Grid item xs={12} sm={8}>
                             <Box className={classes.bold}>
-                                Lets talk! Hit me up on LinkedIn, Github or Instagram
+                                <span style={{color:"linear-gradient(to right, #916482, #A4AADB)"}}>Lets talk!</span> Hit me up on LinkedIn, Github or Instagram
                             </Box>
                             <Icons></Icons>
                         </Grid>

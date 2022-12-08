@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import '@fontsource/roboto';
 import Container from '@material-ui/core/Container'
 import Box from '@material-ui/core/Box';
@@ -34,7 +34,7 @@ const useStyles = makeStyles({
   },
   icons: {
     textDecoration: 'none',
-    color:'black',
+    color: 'black',
   },
   bold: {
     fontWeight: '800',
@@ -47,36 +47,41 @@ const useStyles = makeStyles({
     fontSize: '1.5rem',
     textDecoration: 'none',
     color: '#4a5568',
+  },
+  bold2: {
+    fontWeight: '800',
+    textDecoration: 'underline',
+    color: '#4a5568',
   }
 })
 
 
-export default function About(props){
+export default function About(props) {
   const classes = useStyles(props)
-    return(
-    <div>
+  return (
+    <div style={{ height: "100vh", width: "100vw" }}>
       <Header />
-      <div style={{marginBottom: "100px"}}>
-      <Container style={{marginBottom:"100px", paddingTop: "100px", minHeight: "300px", width: "100vw" }}>
-          
+      <div>
+        <Container style={{ marginBottom: "100px", paddingTop: "100px", minHeight: "100%", width: "100vw" }}>
+
           <Grid container spacing={3}>
-            <Box clone order={{xs:1, sm:2}}>
-              <Grid item xs={12} sm={6} order={{sm: 2}}> <Image src={pic} alt="Picture of the author" /></Grid>
+            <Box clone order={{ xs: 1, sm: 2 }}>
+              <Grid item xs={12} sm={6} order={{ sm: 2 }}> <Image src={pic} alt="Picture of the author" /></Grid>
             </Box>
-            <Box clone order={{xs:2, sm:1}}>
-              <Grid item xs={12} sm={6} order={{xs:2, sm: 1}}>
-                <div class={classes.bold3}>
-                  About Me 🔥 
+            <Box clone order={{ xs: 2, sm: 1 }}>
+              <Grid item xs={12} sm={6} order={{ xs: 2, sm: 1 }}>
+                <div className={classes.bold3}>
+                  About Me 🔥
                 </div>
-                <Typography variant="body1" style={{color:"#4a5568", lineHeight: 2.0}}>
-                I'm a developer, digital marketer, and Corporate Innovation Specialist living in Essen. I am good at incubating PowerPoints to products. I am passionate about sustainability and new business model that dare to solve problems.Recently I joined DNB Bank Asa in 2022 as one of their Innovation Specialists, and helped to pilot a Buy Now Pay Later Product and was part of prototyping a Krypto Custody solution.
-                Before that, I worked at schmiede.one for a few years in Robotics and Web-Development after graduating from Bergische Universities Wuppertal with a specialisation in Entrepreneurship and Innovation.
+                <Typography variant="body1" style={{ color: "#4a5568", lineHeight: 2.0 }}>
+                  I am a developer, digital marketer, and Corporate Innovation Specialist living in Essen. <br></br>I am good at incubating PowerPoints to products. I am passionate about sustainability and new business model that dare to solve problems.<br></br>Recently I joined <Link href="https://www.dnb.no/" passHref><span className={classes.bold2}>DNB Bank Asa</span></Link> in 2022 as one of their Innovation Specialists, and helped to pilot new initatives in payments and coporate banking.
+                  Before that, I worked at <Link href="https://schmiede.one/" passHref ><span className={classes.bold2}>schmiede.one</span></Link> for a few years in Robotics and Web-Development after graduating from <Link href="https://www.uni-wuppertal.de/de/" passHref><span className={classes.bold2}>University of Wuppertal</span></Link> with a specialisation in Entrepreneurship and Innovation.
                 </Typography>
               </Grid>
             </Box>
           </Grid>
-      </Container>
-      <Footer></Footer>
+        </Container>
+        <Footer></Footer>
       </div>
     </div>
   )

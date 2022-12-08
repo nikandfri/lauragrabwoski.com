@@ -30,9 +30,9 @@ const useStyles = makeStyles({
     fontWeight: '700',
     fontSize: '1.5rem',
     textDecoration: 'none',
-    color: 'black',
+    color: '#4a5568',
     '&:hover': {
-      background: "-webkit-linear-gradient(45deg, #8338EC 25%, #3A86FF 35%)",
+      background: "-webkit-linear-gradient(45deg, #916482 0%, #A4AADB 35%)",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent"
     }
@@ -41,7 +41,7 @@ const useStyles = makeStyles({
   heading: {
     fontSize: '3rem',
     fontWeight: '800',
-    background: "-webkit-linear-gradient(45deg, #649173 0%, #DBD5A4 15%)",
+    background: "-webkit-linear-gradient(45deg, #649173 0%, #DBD5A4 35%)",
     WebkitBackgroundClip: "text",
     WebkitTextFillColor: "transparent"
   },
@@ -70,7 +70,7 @@ export default function Home(props) {
                 <Typography variant="body1" gutterBottom>Hi, I’m</Typography>
                 <div className={classes.heading}>Niklas Jahn</div>
                 <Typography fontStyle="italic" variant="body1" gutterBottom style={{color:"#4a5568"}}>
-                I am a founder, innovation manager, creator and a true dog lover. Always exploring new sustainable
+                I am an innovation manager, developer and a true dog lover. Always exploring new sustainable
                 business models and realizing new digital opportunities.  
                 </Typography>
               </Box>
@@ -87,7 +87,7 @@ export default function Home(props) {
                 </Box>
                 <Box style={matches ? {padding:"16px", margin:"4px"} : {paddingTop:"12px", margin:"0px"}}>
                   <Link href="https://medium.com/@jahn230">
-                    <a className={classes.bold}>Blog</a>
+                    <a className={classes.bold}>Writing</a>
                   </Link>
                 </Box>
               </Box>
